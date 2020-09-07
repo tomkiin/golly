@@ -1,0 +1,328 @@
+GET http://127.0.0.1:8090/api/task/3/log
+
+<> 2020-09-03T044719.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/task/3/log
+
+<> 2020-09-03T044714.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/task/3/log
+
+<> 2020-09-03T040851.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/task/3/log
+
+<> 2020-09-03T040441-1.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/task/3/log
+
+<> 2020-09-03T040441.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/task/3/log
+
+<> 2020-09-03T040440-1.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/task/3/log
+
+<> 2020-09-03T040440.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/task/3/log
+
+<> 2020-09-03T040439.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/task/3/log
+
+<> 2020-09-03T040436.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/task/3/log
+
+<> 2020-09-03T040432.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/task/3/log
+
+<> 2020-09-03T040421.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/task/3/log
+
+<> 2020-09-03T040416.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/task/3/log
+
+<> 2020-09-03T040412.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/task/3/log
+
+<> 2020-09-03T040408.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/task/3/log
+
+<> 2020-09-03T032031.404.txt
+
+###
+
+GET http://127.0.0.1:8090/api/task/3/log
+
+<> 2020-09-03T024141-1.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/task/3/log
+
+<> 2020-09-03T024141.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/task/3/log
+
+<> 2020-09-03T024140.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/task/3/log
+
+<> 2020-09-03T024139.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/task/3/log
+
+<> 2020-09-03T024136.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/task/3/log
+
+<> 2020-09-03T024135.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/task/3/log
+
+<> 2020-09-03T024134.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/task/3/log
+
+<> 2020-09-03T024106.200.json
+
+###
+
+PUT http://127.0.0.1:8090/api/task
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "爬取漫画",
+  "seed": "www.baidu.com",
+  "rules": [
+    {
+      "task_id": 1,
+      "name": "a",
+      "pattern": "a",
+      "runtime": 1,
+      "find": "attr",
+      "attr": "href"
+    }
+  ]
+}
+
+<> 2020-09-02T115911.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/tasks
+
+<> 2020-09-02T114943.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/tasks?page=100
+
+<> 2020-09-01T080253.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/tasks
+
+<> 2020-09-01T074217.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/tasks
+
+<> 2020-09-01T074151.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/tasks?size=2
+
+<> 2020-09-01T074143.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/tasks?size=2
+
+<> 2020-09-01T073924.200.json
+
+###
+
+POST http://127.0.0.1:8090/api/task?size=2
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "test",
+  "rules": [
+    {
+      "name": "test"
+    }
+  ]
+}
+
+<> 2020-09-01T073915.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/tasks
+
+<> 2020-09-01T073856.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/tasks
+
+<> 2020-09-01T073818.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/tasks
+
+<> 2020-09-01T073811.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/tasks
+
+<> 2020-09-01T073703.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/tasks
+
+<> 2020-09-01T073548.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/tasks
+
+<> 2020-09-01T073511.200.json
+
+###
+
+GET http://127.0.0.1:8090/api/tasks
+
+<> 2020-09-01T073230.400.txt
+
+###
+
+POST http://127.0.0.1:8090/api/task/1/run
+
+<> 2020-09-01T022236.200.json
+
+###
+
+POST http://127.0.0.1:8090/api/task/1/abort
+
+<> 2020-09-01T022226.200.json
+
+###
+
+POST http://127.0.0.1:8090/api/task/1/run
+
+<> 2020-09-01T022224.200.json
+
+###
+
+POST http://127.0.0.1:8090/api/task/1/abort
+
+<> 2020-09-01T022222.200.json
+
+###
+
+POST http://127.0.0.1:8090/api/task/1/abort
+
+<> 2020-09-01T022220.200.json
+
+###
+
+POST http://127.0.0.1:8090/api/task/1/abort
+
+<> 2020-09-01T022218.200.json
+
+###
+
+POST http://127.0.0.1:8090/api/task/1/run
+
+<> 2020-09-01T022216.200.json
+
+###
+
+POST http://127.0.0.1:8090/api/task/1/run
+
+<> 2020-09-01T022213.200.json
+
+###
+
+POST http://127.0.0.1:8090/api/task/1/abort
+
+<> 2020-09-01T022211.200.json
+
+###
+
+POST http://127.0.0.1:8090/api/task/1/abort
+
+<> 2020-09-01T021903.200.json
+
+###
+
+POST http://127.0.0.1:8090/api/task/1/abort
+
+<> 2020-09-01T021859.200.json
+
+###
+
+POST http://127.0.0.1:8090/api/task/1/run
+
+<> 2020-09-01T021857.200.json
+
+###
+

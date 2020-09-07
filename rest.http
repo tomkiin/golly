@@ -1,0 +1,51 @@
+### list task
+GET http://127.0.0.1:8090/api/tasks
+
+### add task
+POST http://127.0.0.1:8090/api/task
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "test",
+  "rules": [
+    {
+      "name": "test"
+    }
+  ]
+}
+
+### update task
+PUT http://127.0.0.1:8090/api/task
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "爬取漫画",
+  "seed": "www.baidu.com",
+  "rules": [
+    {
+      "task_id": 1,
+      "name": "a",
+      "pattern": "a",
+      "runtime": 1,
+      "find": "attr",
+      "attr": "href"
+    }
+  ]
+}
+
+### get task log
+GET http://127.0.0.1:8090/api/task/3/log
+
+### delete task
+DELETE http://127.0.0.1:8090/api/task/1
+
+### list rule
+GET http://127.0.0.1:8090/api/rules/1
+
+### run task
+POST http://127.0.0.1:8090/api/task/1/run
+
+### abort task
+POST http://127.0.0.1:8090/api/task/1/abort

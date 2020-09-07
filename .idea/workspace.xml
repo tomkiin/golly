@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6260a65c-8cc8-4006-998e-74dede9aca15" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Vue Single File Component" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.14.6/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1gqp5iohBoFl36ELZTxJm1JEdyF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cache" />
+      <recent name="$PROJECT_DIR$/web/src/components" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8090/api/task/3/log" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8090/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;爬取漫画&quot;,&#10;  &quot;seed&quot;: &quot;www.baidu.com&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;a&quot;,&#10;      &quot;pattern&quot;: &quot;a&quot;,&#10;      &quot;runtime&quot;: 1,&#10;      &quot;find&quot;: &quot;attr&quot;,&#10;      &quot;attr&quot;: &quot;href&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8090/api/tasks" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8090/api/tasks" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="page" />
+                <option name="value" value="100" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8090/api/tasks" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="size" />
+                <option name="value" value="2" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8090/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="size" />
+                <option name="value" value="2" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;name&quot;: &quot;test&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8090/api/task/1/run" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8090/api/task/1/abort" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8090/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;name&quot;: &quot;test&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://127.0.0.1:8090/api/task/1" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://127.0.0.1:8090/api/task/22" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8090/api/rules/1" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8090/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;id&quot;: 2,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;test&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8090/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;id&quot;: 2,&#10;      &quot;task_id&quot;: 2,&#10;      &quot;name&quot;: &quot;test&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8090/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test aaa&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;id&quot;: 1,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;test&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8090/api/rules/2" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8090/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test aaa&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8090/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 2,&#10;  &quot;name&quot;: &quot;test&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;id&quot;: 1,&#10;      &quot;task_id&quot;: 2,&#10;      &quot;name&quot;: &quot;test&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8090/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 2,&#10;  &quot;name&quot;: &quot;test&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;name&quot;: &quot;test&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8090/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task/1" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test aaa&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;id&quot;: 1,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1 ccc&quot;&#10;    },&#10;    {&#10;      &quot;id&quot;: 2,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1 bbb&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test aaa&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;id&quot;: 1,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1 bbb&quot;&#10;    },&#10;    {&#10;      &quot;id&quot;: 2,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1 bbb&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/tasks" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task/1" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;name&quot;: &quot;rule1&quot;&#10;    },&#10;    {&#10;      &quot;name&quot;: &quot;rule2&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test aaa&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;id&quot;: 5,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1 bbb&quot;&#10;    },&#10;    {&#10;      &quot;id&quot;: 6,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1 bbb&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test aaa&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;id&quot;: 3,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1 bbb&quot;&#10;    },&#10;    {&#10;      &quot;id&quot;: 4,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1 bbb&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test bbb&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;id&quot;: 3,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1 bbb&quot;&#10;    },&#10;    {&#10;      &quot;id&quot;: 4,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1 bbb&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test aaa&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1 bbb&quot;&#10;    },&#10;    {&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1 bbb&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test bbb&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;id&quot;: 1,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1 bbb&quot;&#10;    },&#10;    {&#10;      &quot;id&quot;: 2,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1 bbb&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test bbb&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;id&quot;: 1,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1 bbb&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test aaa&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;id&quot;: 1,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1 aaa&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test bbb&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;id&quot;: 1,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1 aaa&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test bbb&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;id&quot;: 5,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1 aaa&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test aaa&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;id&quot;: 5,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1 bbb&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test bbb&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;id&quot;: 5,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test bbb&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;id&quot;: 3,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test bbb&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;id&quot;: 3,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1&quot;&#10;    },&#10;    {&#10;      &quot;id&quot;: 4,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule2&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test aaa&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;id&quot;: 3,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1&quot;&#10;    },&#10;    {&#10;      &quot;id&quot;: 4,&#10;      &quot;task_id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule2&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task/2" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 2,&#10;  &quot;name&quot;: &quot;test&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;name&quot;: &quot;rule1&quot;&#10;    },&#10;    {&#10;      &quot;name&quot;: &quot;rule2&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1&quot;&#10;    },&#10;    {&#10;      &quot;id&quot;: 2,&#10;      &quot;name&quot;: &quot;rule2&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 2,&#10;  &quot;name&quot;: &quot;test&quot;,&#10;  &quot;rules&quot;: [&#10;    {&#10;      &quot;id&quot;: 1,&#10;      &quot;name&quot;: &quot;rule1&quot;&#10;    },&#10;    {&#10;      &quot;id&quot;: 2,&#10;      &quot;name&quot;: &quot;rule2&quot;&#10;    }&#10;  ]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task/2" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 2,&#10;  &quot;name&quot;: &quot;test2&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 2,&#10;  &quot;name&quot;: &quot;test&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/task" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;test&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:9999/api/ok" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.go build golly">
+    <configuration name="go build golly" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golly" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="golly" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestInitDB in golly/api/model" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golly" />
+      <working_directory value="$PROJECT_DIR$/api/model" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="golly/api/model" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestInitDB$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rest#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/rest.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/rest.http" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/rest.http" index="4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build golly" />
+      <item itemvalue="Go Test.TestInitDB in golly/api/model" />
+      <item itemvalue="HTTP Request.rest#1" />
+      <item itemvalue="HTTP Request.rest#3" />
+      <item itemvalue="HTTP Request.rest#4" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build golly" />
+        <item itemvalue="Go Test.TestInitDB in golly/api/model" />
+        <item itemvalue="HTTP Request.rest#4" />
+        <item itemvalue="HTTP Request.rest#3" />
+        <item itemvalue="HTTP Request.rest#1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="202" width="1071" height="701" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599285998991">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="440" y="202" width="1071" height="701" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1599285998991" />
+    <state x="653" y="259" key="#com.intellij.ide.util.MemberChooser" timestamp="1598939035990">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="653" y="259" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1598939035990" />
+    <state x="998" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598941677567">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="998" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1598941677567" />
+    <state width="251" height="195" key="DatabaseViewActions_Filter" timestamp="1598867332358">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="251" height="195" key="DatabaseViewActions_Filter/0.23.1680.1027@0.23.1680.1027" timestamp="1598867332358" />
+    <state x="711" y="444" key="Github.ShareDialog" timestamp="1599468516216">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="711" y="444" key="Github.ShareDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1599468516216" />
+    <state x="521" y="167" key="Github.UntrackedFilesDialog" timestamp="1599468535969">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="521" y="167" key="Github.UntrackedFilesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1599468535969" />
+    <state width="1638" height="562" key="GridCell.Tab.0.bottom" timestamp="1599468990851">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="562" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1599468990851" />
+    <state width="1638" height="562" key="GridCell.Tab.0.center" timestamp="1599468990850">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="562" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1599468990850" />
+    <state width="1638" height="562" key="GridCell.Tab.0.left" timestamp="1599468990849">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="562" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1599468990849" />
+    <state width="1638" height="562" key="GridCell.Tab.0.right" timestamp="1599468990850">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="562" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1599468990850" />
+    <state width="1638" height="340" key="GridCell.Tab.1.bottom" timestamp="1599195651537">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="340" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1599195651537" />
+    <state width="1638" height="340" key="GridCell.Tab.1.center" timestamp="1599195651536">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="340" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1599195651536" />
+    <state width="1638" height="340" key="GridCell.Tab.1.left" timestamp="1599195651536">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="340" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1599195651536" />
+    <state width="1638" height="340" key="GridCell.Tab.1.right" timestamp="1599195651536">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="340" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1599195651536" />
+    <state x="341" y="175" key="SettingsEditor" timestamp="1599469023855">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1599469023855" />
+    <state x="533" y="159" key="VCS.ChangeListViewerDialog" timestamp="1599468826037">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="533" y="159" key="VCS.ChangeListViewerDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1599468826037" />
+    <state x="745" y="433" width="341" height="248" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1599018501051">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="745" y="433" width="341" height="248" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.23.1680.1027@0.23.1680.1027" timestamp="1599018501051" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1599114342049">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1599114342049" />
+  </component>
+</project>
