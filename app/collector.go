@@ -11,7 +11,6 @@ type Collector struct {
 	name    string
 	runtime int
 	client  *http.Client
-	link    *Link
 	parse   *parser
 	over    int32 // 0-结束 1-运行
 	stopCh  chan struct{}
@@ -27,7 +26,6 @@ func InitCollector(link *Link, name string, runtime int, stopCh chan struct{}) *
 	c.name = name
 	c.runtime = runtime
 	c.client = &http.Client{}
-	c.link = link
 	c.over = 0
 	c.stopCh = stopCh
 	return c
@@ -47,7 +45,7 @@ func (c *Collector) collect(in chan string) chan string {
 		for url := range in {
 			// stop check
 			select {
-			case <-c.link.stopCh:
+			case <-c.stopCh:
 				return
 			default:
 			}
